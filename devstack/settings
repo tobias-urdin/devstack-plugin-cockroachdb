@@ -1,0 +1,7 @@
+enable_service cockroachdb
+
+COCKROACHDB_DEST=${COCKROACHDB_DEST:-/root/cockroachdb/cockroach-v22.1.9.linux-amd64/test}
+
+COCKROACHDB_VERSION=${COCKROACHDB_VERSION:-v22.1.9}
+COCKROACHDB_FILE=${COCKROACHDB_FILE:-cockroach-${COCKROACHDB_VERSION}.linux-amd64}
+COCKROACHDB_URL=${COCKROACHDB_URL:-https://binaries.cockroachdb.com/${COCKROACHDB_FILE}.tgz}
